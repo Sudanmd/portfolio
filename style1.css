@@ -1,0 +1,239 @@
+.html,.body {
+  scroll-behavior: smooth;
+}
+
+
+   body {
+            background: white;
+            margin:5px;
+            
+   }
+        .greeting-img{
+          width:39px;
+        }
+        .logo{
+           width:200px;
+           height: fit-content;
+           padding-right: 0;
+           border-radius: 10px;
+           background-color: #a6a6a6;
+           position: relative;
+           right: 4%;
+        }
+  .iconbar{
+    padding-left: 0%;
+    display: flex;
+    text-align: end;
+    justify-content:space-around;   
+    position:sticky;
+  }
+  .About{
+    width: 18cm;
+    font-size: 200%;
+    font-family:apple-system, BlinkMacSystemFont, 'Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif';
+    text-align:justify;
+    
+  }
+  .first-image{
+  margin-left: 55%;
+  position: absolute;
+  top: 100px;
+  left: 30px;
+}
+.socialmedia{
+  display: inline-flexbox;
+  justify-items: space-evenly;
+}
+.contact_a{
+  background-color: #FFBD59;
+  padding: 11px;
+  border-start-end-radius: 17%;
+  border-bottom-left-radius: 17%;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+.contact_a:hover{
+  background-color:white;
+}
+.contact_b{
+  background-color: #FFBD59;
+  padding: 11px;
+  border-start-end-radius: 17%;
+  border-bottom-left-radius: 17%;
+  position: relative;
+  top: 40px;
+  left: 100px;
+}
+.contact_b:hover{
+  background-color:white;
+}
+.box_second_page{
+position: relative;
+top: 100px;
+}
+.Second_image{
+position: relative;
+top:79px;
+left: 40px;
+border-radius: 20px;
+}
+.Html_logo{
+  width: 22.7%;
+  height: 10%;
+  opacity: 0.5;
+}
+.Html_logo:hover{
+  opacity:1;
+}
+.Css_logo{
+  width: 20%;
+  height: 5%;
+  opacity: 0.5;
+}
+.Css_logo:hover{
+  opacity: 1;
+}
+.js_logo{
+ width: 25.6%;
+ height: 10%;
+ opacity: 0.5;
+}
+.js_logo:hover{
+  opacity: 1;
+}
+.Mysql_logo{
+  width: 25.6%;
+  height: 10%;
+  opacity: 0.5;
+ }
+ .Mysql_logo:hover{
+  opacity: 1;
+}
+ .Python_logo{
+  width:25%;
+  height:10%;
+  opacity: 0.5;
+ }
+ .Python_logo:hover{
+  opacity: 1;
+}
+ .java_logo{
+  width:26%;
+  height:10%;
+  opacity: 0.5;
+ }
+ .java_logo:hover{
+  opacity: 1;
+}
+ .figma_logo{
+  width:20%;
+  height:10%;
+  opacity: 0.5;
+ }
+ .figma_logo:hover{
+  opacity: 1;
+}
+.fa_ba_tools{
+  padding: 0% 3%;
+  /* display: flex;
+  align-items: flex-start; */
+
+}
+.skills-bar{
+  position:relative;
+  top:70px;
+  /* margin-bottom: 100px; */  
+  padding: 25px;
+}
+.meter {
+  background: #f3efef;
+  border-radius: 25px;
+  height: 20px;
+  position: relative;
+}
+.meter>span {
+  background-color:#FFBD59;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 6px;
+  display:block;
+  height: 100%;
+  overflow: hidden; 
+  position: relative;
+}
+
+/* <---fourth-page--->*/
+
+.Education-bar{
+  width: 60%;
+  margin-top: 30px;
+  padding: 25px;
+}
+.Education{
+  display: flex;
+  align-items: flex-start;
+  gap:20px;
+  
+}
+.Education-para{
+  left: 20px;
+  font-family:cursive;
+  font-size: 150%;
+  width: 30cm;
+}
+
+.Projects-bar{
+    padding: 25px;
+    margin-top: -50px;
+}
+.project-background{
+  width: 450px;
+  height: 420px;
+  background-color: #FFBD59;
+}
+.project-para{
+  font-family: 'cursive,monospace';
+  text-align: justify;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.project-img{
+  position: relative;
+  left: 23px;
+  top: 5px;
+}
+
+
+.contact-page{
+  width: 1344px;
+  height:390px;
+  background-color: hsl(0, 0%, 89%);
+  /* padding: 20px; */
+}
+.contact-image{
+  border-radius: 50%;
+  position: absolute;
+  left: 80%;
+  top: 2580px;
+  bottom: 100px;
+}
+#contact-para{
+  font-family:apple-system, BlinkMacSystemFont, 'Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif';
+  font-size: 20px;
+  /* word-spacing: 10px; */
+}
+
+.socialmediaa{
+ width:40%;
+ display: inline-flexbox;
+ justify-items: space-evenly;
+ gap: 150px;
+}
+ 
+.fa-fa-contact-page{
+  position: relative;
+  left: 10px;
+}
